@@ -3,5 +3,6 @@ export let Dir = [
     "circuitmatch",
     "firewall",
     "icejam",
-    "tumblers"
+    "tumblers",
+    "icefishing"
 ]
