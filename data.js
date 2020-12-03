@@ -4,5 +4,6 @@ export let Dir = [
     "firewall",
     "icejam",
     "tumblers",
-    "icefishing"
+    "icefishing",
+    "MixMaster"
 ]
