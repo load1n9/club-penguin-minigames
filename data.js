@@ -6,5 +6,6 @@ export let Dir = [
     "tumblers",
     "icefishing",
     "mixmaster",
-    "dancecontest"
+    "dancecontest",
+    "psa1"
 ]
