@@ -8,5 +8,6 @@ export let Dir = [
     "mixmaster",
     "dancecontest",
     "cartsurfer",
-    "rhythmhack"
+    "rhythmhack",
+    "jetpack"
 ]
