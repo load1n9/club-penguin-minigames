@@ -1,0 +1,22 @@
+{
+    "short_name": "CPMG",
+    "name": "club penguin minigames",
+    "manifest_version": 2,
+    "version": "0.1",
+    "icons": [
+        {
+           "src": "assets/shrimp.png",
+           "type": "image/png",
+           "sizes": "any" 
+        },
+        {
+           "src": "assets/horn.png",
+           "type": "image/png",
+           "sizes": "any" 
+        }
+    ],
+    "start_url": "./index.html",
+    "background_color": "#2196f3",
+    "theme_color": "#2196f3",
+    "display": "standalone"
+}
