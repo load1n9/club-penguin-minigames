@@ -1,6 +1,5 @@
 const PRECACHE_URLS =
 `manifest.json
-./test.js
 ./index.js
 ./data.js
 ./index.html
