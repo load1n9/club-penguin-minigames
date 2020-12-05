@@ -14,14 +14,15 @@ const PRECACHE_URLS =
 ./src/ruffle.js.map
 ./src/ruffle.js
 ./src/core.ruffle.75408f40d9423287edd6.js.map
-./rhythmhack/rhythmhack.swf
-./rhythmhack/index.html
-./rhythmhack/lang/en/locale.swf
-./rhythmhack/lang/pt/locale.swf
-./rhythmhack/lang/fr/locale.swf
-./rhythmhack/lang/ru/locale.swf
-./rhythmhack/lang/es/locale.swf
-./rhythmhack/lang/de/locale.swf`
+./dancecontest/index.html
+./dancecontest/dance.swf
+./dancecontest/lang/en/locale.swf
+./dancecontest/songs/songData2.swf
+./dancecontest/songs/songData4.swf
+./dancecontest/songs/songData1.swf
+./dancecontest/songs/songData6.swf
+./dancecontest/songs/songData5.swf
+./dancecontest/songs/songData3.swf`
 .replace(/(\r\n|\n|\r)/gm, "").split("./")
 
 const PRECACHE = 'precache-v2';
