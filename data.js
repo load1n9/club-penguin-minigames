@@ -10,5 +10,6 @@ export let Dir = [
     "cartsurfer",
     "rhythmhack",
     "jetpack",
-    "thinice"
+    "thinice",
+    "submarine"
 ]
