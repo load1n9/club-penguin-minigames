@@ -10,7 +10,7 @@ function ListGames(room) {
             a.title = element;
             a.href = `/${element}`;
             list.appendChild(a)
-            //let linebreak = document.createElement("br");
-            //list.appendChild(linebreak)
+            let linebreak = document.createElement("br");
+            list.appendChild(linebreak)
         });
  }
