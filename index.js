@@ -1,26 +1,16 @@
-import {
-    html,
-    Component,
-    render
-} from 'https://unpkg.com/htm/preact/standalone.module.js';
-
-import {
-    Dir
-} from "./data.js"
-
-class App extends Component {
-    render() {
-        let output = []
-        for (var i = 0; i < Dir.length; i++) {
-            output[i] = html `<${El} path=${Dir[i]} />`
-        }
-        return output
-
-    }
-}
-var El = ({
-    path
-}) => html `<a href="${path}">${path}</a><br/>`
-
-
-render(html `<${App} />`, document.body);
+   
+function ListGames(room) {
+        console.log(room)
+        let list = document.querySelector("#list")
+        list.innerHTML = ""
+        Dir[room].forEach(element => {
+            let a = document.createElement('a');
+            let linkText = document.createTextNode(element);
+            a.appendChild(linkText);
+            a.title = element;
+            a.href = `/${element}`;
+            list.appendChild(a)
+            //let linebreak = document.createElement("br");
+            //list.appendChild(linebreak)
+        });
+ }

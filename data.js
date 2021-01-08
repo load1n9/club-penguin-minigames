@@ -1,16 +1,31 @@
-export let Dir = [
-    "beancounters",
-    "circuitmatch",
-    "firewall",
-    "icejam",
-    "tumblers",
-    "icefishing",
-    "mixmaster",
-    "dancecontest",
-    "cartsurfer",
-    "rhythmhack",
-    "jetpack",
-    "thinice",
-    "submarine",
-    "pizzatron"
-]
+let Dir = {
+    beach: [
+        "jetpack"
+    ],
+    berg: [
+       "submarine"
+    ],
+    plaza: [
+        "pizzatron"
+    ],
+    dojo: [
+
+    ],
+    town: [
+        "thinice",
+        "beancounters",
+        "mixmaster",
+        "dancecontest"
+    ],
+    village: [
+        "tumblers",
+        "circuitmatch",
+        "icefishing",
+        "firewall",
+        "icejam",
+        "rhythmhack"
+    ],
+    shack: [
+        "cartsurfer"
+    ]
+}

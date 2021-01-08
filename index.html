@@ -1,20 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Club Penguin MiniGames</title>
     <meta name="description" content="flashless club penguin minigames">
-    <meta name="theme-color" content="#2196f3"/>
+    <meta name="theme-color" content="#2196f3" />
     <link rel="manifest" href="manifest.json">
+    <script src="./src/ruffle.js"></script>
     <script>
         if ('serviceWorker' in navigator) {
             navigator.serviceWorker.register("sw.js")
         }
     </script>
-    <script src = "index.js" type = "module"></script>
+    <script src="data.js"></script>
+    <script src="index.js"></script>
 </head>
+
 <body>
+    <object type="application/x-shockwave-flash" id="game" name="game" data="map.swf" width="100%" height="98%">
+        <param name="menu" value="false">
+        <param name="allowScriptAccess" value="always">
+        <param name="flashvars" value="lang=en">
+    </object>
+    <div id="list"></div>
 </body>
+
 </html>

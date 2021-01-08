@@ -1,5 +1,6 @@
 const PRECACHE_URLS =
 `manifest.json
+./map.swf
 ./index.js
 ./data.js
 ./index.html
