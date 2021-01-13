@@ -6,7 +6,8 @@ let Dir = {
        "submarine"
     ],
     plaza: [
-        "pizzatron"
+        "pizzatron",
+        "pufflelaunch"
     ],
     dojo: [
 

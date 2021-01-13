@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="../src/ruffle.js"></script>
+    <script>
+        window.RufflePlayer = window.RufflePlayer || {};
+        /*window.addEventListener("load", (event) => {
+            const ruffle = window.RufflePlayer.newest();
+            const player = ruffle.createPlayer();
+            const container = document.getElementById("container");
+            container.appendChild(player);
+            player.load("cannon.swf");
+        });*/
+        let audiothing = new Audio('124.mp3'); 
+        audiothing.addEventListener('ended', () => {
+            this.currentTime = 0;
+            this.play();
+        }, false);
+        audiothing.play();
+    </script>
+    <object type="application/x-shockwave-flash" id="game" name="game" data="cannon.swf" width="100%" height="98%">
+        <param name="menu" value="false">
+        <param name="allowScriptAccess" value="always">
+        <param name="flashvars" value="lang=en">
+    </object>
+</body>
+</html>
